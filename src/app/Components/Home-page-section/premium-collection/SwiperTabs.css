@@ -1,0 +1,214 @@
+.insd_tab {
+  position: relative;
+}
+
+.content_tab {
+  height: auto;
+  padding: 20px 20px;
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  width: 100%;
+}
+.content_tab .slider-img-prem {
+  cursor: pointer;
+}
+.hd-tb-tp {
+  color: #ffff;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 50px;
+  /* letter-spacing: 1px; */
+  margin-bottom: 0px;
+}
+.para-tb-md {
+  color: #ffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+.img_tab img {
+  width: 100%;
+}
+.rd-mr-tbtn {
+  color: #ffff !important;
+}
+.tab-swiper-slider {
+  padding-top: 50px;
+}
+.tabs-inside-slider {
+  position: relative;
+}
+.tab-swiper-slider .arrow-left.arrow {
+  background-image: url("../../../../../public/NewsLetter_img/carousel-arrow-rg.svg");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 61%;
+  top: -18%;
+}
+.tab-swiper-slider .arrow-right.arrow {
+  background-image: url("../../../../../public/NewsLetter_img/carousel-arrow-lft.svg");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 57%;
+  top: -18%;
+}
+
+.btn-prm-sec {
+  padding-right: 302px;
+}
+.arrow-right.arrow.swiper-button-disabled {
+  opacity: 0.5;
+}
+.arrow-left.arrow.swiper-button-disabled {
+  opacity: 0.5;
+}
+
+a.mob-read-btn {
+  font-size: 17px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .tab-swiper-slider {
+    padding-top: 20px;
+  }
+  .tab-swiper-slider .arrow-right.arrow {
+    left: 30%;
+    top: auto;
+    bottom: -70px;
+  }
+  .tab-swiper-slider .arrow-left.arrow {
+    left: 49%;
+    top: auto;
+    bottom: -16.5%;
+  }
+  .hd-tb-tp {
+    font-size: 26px;
+  }
+  a.mob-read-btn {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .hd-tb-tp {
+    font-size: 30px;
+  }
+  a.mob-read-btn {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+  .hd-tb-tp {
+    font-size: 26px;
+  }
+  a.mob-read-btn {
+    font-size: 17px;
+    margin-right: 10px;
+  }
+
+  .tab-swiper-slider .arrow-left.arrow{
+    left: 88% !important;
+    top: -23% !important;
+    
+  }
+  .tab-swiper-slider .arrow-right.arrow{
+    left: 82% !important;
+    top: -23% !important;
+
+  }
+}
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+  .btn-prm-sec {
+    padding-right: 80px;
+  }
+  .tab-swiper-slider .arrow-right.arrow {
+    left: 62%;
+    top: -19%;
+  }
+  .tab-swiper-slider .arrow-left.arrow {
+    left: 67%;
+    top: -19%;
+  }
+  .content_tab {
+    width: 100%;
+  }
+  .para-tb-md {
+    padding-bottom: 15px;
+  }
+  .hd-tb-tp {
+    font-size: 29px !important;
+  }
+}
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+  .btn-prm-sec {
+    padding-right: 80px;
+  }
+  .tab-swiper-slider .arrow-right.arrow {
+    top: -18%;
+    left: 63%;
+  }
+  .tab-swiper-slider .arrow-left.arrow {
+    left: 68%;
+    top: -18%;
+  }
+  .content_tab {
+    width: 100%;
+  }
+  .para-tb-md {
+    padding-bottom: 15px;
+  }
+  .hd-tb-tp {
+    font-size: 29px !important;
+  }
+}
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+  .btn-prm-sec {
+    padding-right: 85px;
+  }
+  .tab-swiper-slider .arrow-left.arrow {
+    left: 70%;
+    top: -17%;
+  }
+  .tab-swiper-slider .arrow-right.arrow {
+    top: -17%;
+    left: 65.5%;
+  }
+  .content_tab {
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1540px) {
+  .btn-prm-sec {
+    padding-right: 85px;
+  }
+  .tab-swiper-slider .arrow-left.arrow {
+    left: 69%;
+    top: -16.5%;
+  }
+  .tab-swiper-slider .arrow-right.arrow {
+    top: -16.5%;
+    left: 64.5%;
+  }
+  .content_tab {
+    width: 100%;
+  }
+}
